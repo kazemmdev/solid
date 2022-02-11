@@ -1,6 +1,6 @@
 <?php
 
-namespace SolidPrinciples\before;
+namespace SolidPrinciples\after;
 
 class Employee
 {
@@ -16,8 +16,8 @@ class Employee
         return $this->name;
     }
 
-    public function printTimeSheetReport()
+    public function printTimeSheetReport(TimeSheet $timeSheet): void
     {
-        echo date("Y-m-d H:i:s");
+        echo $timeSheet->print();
     }
 }
