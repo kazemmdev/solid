@@ -12,3 +12,12 @@ design principles intended to make software design more understandable, flexible
 
 > Classes should be open for extension but closed for modification.
 
+## Liskov Substitution Principle
+
+> When extending a class, remember that you should be
+able to pass objects of the subclass in place of objects of
+the parent class without breaking the client code.
+
+## Interface Segregation Principle
+
+> Clients shouldn’t be forced to depend on methods they do not use.
