@@ -1,6 +1,6 @@
 <?php
 
-namespace SolidPrinciples\before;
+namespace SolidPrinciples\SingleResponsibility\before;
 
 class Employee
 {

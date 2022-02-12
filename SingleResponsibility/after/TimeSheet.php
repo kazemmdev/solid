@@ -1,6 +1,6 @@
 <?php
 
-namespace SolidPrinciples\after;
+namespace SolidPrinciples\SingleResponsibility\after;
 
 class TimeSheet
 {
