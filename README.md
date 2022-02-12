@@ -21,3 +21,10 @@ the parent class without breaking the client code.
 ## Interface Segregation Principle
 
 > Clients shouldn’t be forced to depend on methods they do not use.
+
+## Dependency Inversion Principle
+
+> High-level classes shouldn’t depend on low-level classes.
+Both should depend on abstractions. Abstractions
+shouldn’t depend on details. Details should depend on
+abstractions.
